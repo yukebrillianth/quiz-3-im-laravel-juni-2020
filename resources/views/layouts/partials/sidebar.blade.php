@@ -18,7 +18,7 @@
       <span>Dashboard</span></a>
   </li> --}}
 
-  <li class="nav-item {{ (request()->is('erd')) ? 'active' : '' }}">
+  <li class="nav-item {{ (request()->is('/')) ? 'active' : '' }}">
     <a class="nav-link" href="/">
       <i class="fas fa-fw fa-folder"></i>
       <span>ERD</span></a>
